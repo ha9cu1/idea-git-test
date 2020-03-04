@@ -1,0 +1,11 @@
+<configuration>
+    <dataSource>
+        <!--ctrl+d 复制粘贴一行到下一行 -->
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"></property>
+        <property name="jdbcUrl" value= "jdbc:mysql://localhost:3306/lagoudatabase?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true"></property>
+        <property name="username" value="lagou"></property>
+        <property name="password" value="lagou"></property>
+    </dataSource>
+
+    <mapper resource="UserMapper.xml"></mapper>
+</configuration>
